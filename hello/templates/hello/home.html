@@ -19,7 +19,7 @@
                 <tr>
                     <td data-label="Date ">{{ message.log_date | date:'d/m/y H:i:s' }}</td data-label="Message ">
                     <td data-label="Name ">Name</td data-label="Message ">
-                    <td data-label="Message ">{{ message.message | ljust:"10"}}</td data-label="Message ">
+                    <td data-label="Message " align="justify">{{ message.message | ljust:"10"}}</td data-label="Message ">
                 </tr>
             {% endfor %}
             </tbody>

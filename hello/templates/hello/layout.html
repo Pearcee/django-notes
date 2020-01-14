@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#maincontent">Skip to main</a>
 <!-- <div class="navbar"> -->
 <ul class="topnav">    
     <li><a href="{% url 'home' %}"  class="active">Home</a></li>
@@ -22,9 +23,10 @@
 <div class="body-content">
     {% block content %}
     {% endblock %}
+    <main id="maincontent"></main>
     <hr/>
     <footer>
-        <p>&copy; sjp 2020.01.12.13</p>
+        <p>&copy; sjp 2020.01.13.10:54</p>
     </footer>
 </div>
 </body>

@@ -49,3 +49,7 @@ def log_message(request):
             return render(request, "hello/log_message.html", {"form": form})
     else:
         return render(request, "hello/log_message.html", {"form": form})
+
+def test(request):
+    """Renders the about page."""
+    return render(request, "hello/test.html")
